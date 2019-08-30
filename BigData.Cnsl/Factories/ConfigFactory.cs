@@ -1,7 +1,7 @@
 using System.Linq;
 using Microsoft.Hadoop.MapReduce;
 
-namespace BigData.Console.Factories
+namespace BigData.Cnsl.Factories
 {
     public static class ConfigFactory
     {
@@ -11,7 +11,7 @@ namespace BigData.Console.Factories
             {
                 InputPath = "../../../_data/Default/in", 
                 OutputFolder = "../../../_data/Default/out"
-            };
+            }.Required();
         }
         
         public static HadoopJobConfiguration Get(string inputFile)
@@ -25,7 +25,13 @@ namespace BigData.Console.Factories
             {
                 InputPath = $"../../../_data/{inputFile}", 
                 OutputFolder = $"../../../_data/{@out}out"
-            };
+            }.Required();
+        }
+
+        private static HadoopJobConfiguration Required(this HadoopJobConfiguration config)
+        {
+            config.FilesToInclude.Add("Microsoft.WindowsAzure.Management.Framework.Threading.dll");
+            return config;
         }
     }
 }

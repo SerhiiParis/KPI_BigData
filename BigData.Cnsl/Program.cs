@@ -1,4 +1,6 @@
-﻿namespace BigData.Console
+﻿using System;
+
+namespace BigData.Cnsl
 {
     class Program
     {
@@ -6,7 +8,7 @@
         {
             Labs.Lab1();
 
-            System.Console.ReadKey();
+            Console.ReadKey();
         }
     }
 }

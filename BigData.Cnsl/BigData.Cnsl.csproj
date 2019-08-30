@@ -1,20 +1,17 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <OutputType>Exe</OutputType>
         <TargetFramework>netcoreapp2.2</TargetFramework>
     </PropertyGroup>
-
-    <ItemGroup>
-      <PackageReference Include="Microsoft.Hadoop.MapReduce" Version="0.12.5807.28193" />
-    </ItemGroup>
 
     <ItemGroup>
       <ProjectReference Include="..\BigData.Implementation\BigData.Implementation.csproj" />
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="_data\Default" />
+      <Reference Include="Microsoft.Hadoop.MapReduce, Version=0.12.5807.28193, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
+        <HintPath>..\..\..\..\Users\sergii.paris\.nuget\packages\microsoft.hadoop.mapreduce\0.12.5807.28193\lib\net40\Microsoft.Hadoop.MapReduce.dll</HintPath>
+      </Reference>
     </ItemGroup>
 
 </Project>

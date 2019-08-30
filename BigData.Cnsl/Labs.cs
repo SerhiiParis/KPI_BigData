@@ -1,10 +1,10 @@
-using BigData.Console.Extensions;
-using BigData.Console.Factories;
+using BigData.Cnsl.Extensions;
+using BigData.Cnsl.Factories;
 using BigData.Implementation;
 using BigData.Implementation.Mappers;
 using BigData.Implementation.Reducers;
 
-namespace BigData.Console
+namespace BigData.Cnsl
 {
     public static class Labs
     {

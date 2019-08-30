@@ -1,7 +1,7 @@
 using System;
 using BigData.Implementation.Contracts;
 
-namespace BigData.Console.Extensions
+namespace BigData.Cnsl.Extensions
 {
     public static class PrintExtensions
     {
@@ -17,8 +17,8 @@ namespace BigData.Console.Extensions
                     throw new ArgumentOutOfRangeException(nameof(data), data, null);
             }
             
-            System.Console.WriteLine($"Exit Code: {data.ToString()}");
-            System.Console.ResetColor();
+            Console.WriteLine($"Exit Code: {data.ToString()}");
+            Console.ResetColor();
         }
     }
 }
