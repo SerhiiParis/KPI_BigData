@@ -21,4 +21,8 @@
       <PackageReference Include="System.Net.Http.Formatting.Extension" Version="5.2.3" />
     </ItemGroup>
 
+    <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+      <Exec Command="copy $(ProjectDir)_dependencies\* $(ProjectDir)$(OutDir)" />
+    </Target>
+
 </Project>
