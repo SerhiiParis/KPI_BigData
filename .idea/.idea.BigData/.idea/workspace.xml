@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af99100-b8ad-419b-9d3d-a6f22bf70133" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BigData.Console/Labs.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigData.Console/Labs.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BigData.Console/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigData.Console/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,29 +13,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BigData.Implementation/SimpleWorker.cs">
+        <entry file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="16" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="216">
+              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
               <folding>
-                <marker date="1567151378090" expanded="true" signature="6:202" ph="..." />
-                <marker date="1567151378090" expanded="true" signature="236:753" ph="{...}" />
-                <marker date="1567151378090" expanded="true" signature="381:751" ph="{...}" />
-                <marker date="1567151378090" expanded="true" signature="483:745" ph="{...}" />
+                <marker date="1567152995985" expanded="true" signature="75:389" ph="{...}" />
+                <marker date="1567152995985" expanded="true" signature="121:387" ph="{...}" />
+                <marker date="1567152995985" expanded="true" signature="201:381" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BigData.Console/Program.cs">
+        <entry file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/WordCountMapper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+            <state relative-caret-position="198">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding>
-                <marker date="1567152897472" expanded="true" signature="25:183" ph="{...}" />
-                <marker date="1567152897472" expanded="true" signature="45:181" ph="{...}" />
-                <marker date="1567152897472" expanded="true" signature="91:175" ph="{...}" />
+                <marker date="1567153183482" expanded="true" signature="75:388" ph="{...}" />
+                <marker date="1567153183482" expanded="true" signature="123:386" ph="{...}" />
+                <marker date="1567153183482" expanded="true" signature="203:380" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -52,21 +50,21 @@
     <setting file="file://$PROJECT_DIR$/BigData.Implementation/Factories/ClusterFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BigData.Console/Program.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA383519-BEE8-4E9A-BC06-F63CD9D8A405/93/c6cf457f/HadoopJobConfiguration.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BigData.Console/Extensions/PrintExtensions.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BigData.Implementation/Contracts/StatusResult.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA383519-BEE8-4E9A-BC06-F63CD9D8A405/94/497ead47/IStreamingJobExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/WordCountMapper.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BigData.Implementation/Reducers/SumReducer.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BigData.Console/Factories/ConfigFactory.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/BigData.Console/Labs.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/BigData.Implementation/SimpleWorker.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BigData.Console/Extensions/PrintExtensions.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA383519-BEE8-4E9A-BC06-F63CD9D8A405/94/497ead47/IStreamingJobExecutor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BigData.Console/Factories/ConfigFactory.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/BigData.Console/Labs.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Lab1/Class1.cs" />
         <option value="$PROJECT_DIR$/BigData.Implementation/Class1.cs" />
-        <option value="$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs" />
         <option value="$PROJECT_DIR$/BigData.Lab1/Class1.cs" />
         <option value="$PROJECT_DIR$/BigData.Implementation/Reducers/SumReducer.cs" />
         <option value="$PROJECT_DIR$/BigData.Console/Helpers/Result.cs" />
@@ -83,6 +81,8 @@
         <option value="$PROJECT_DIR$/BigData.Console/Labs/Lab1.cs" />
         <option value="$PROJECT_DIR$/BigData.Console/Labs.cs" />
         <option value="$PROJECT_DIR$/BigData.Console/Program.cs" />
+        <option value="$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs" />
+        <option value="$PROJECT_DIR$/BigData.Implementation/Mappers/WordCountMapper.cs" />
       </list>
     </option>
   </component>
@@ -98,6 +98,9 @@
     <option name="y" value="131" />
     <option name="width" value="1440" />
     <option name="height" value="788" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator currentView="SolutionExplorer" proportions="" version="1">
@@ -116,6 +119,17 @@
               <item name="" type="784c90a0:SolutionExplorerRootNode" />
               <item name="BigData" type="24d0babc:SolutionExplorerModelNode" />
               <item name="BigData.Console" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BigData" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BigData.Implementation" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BigData" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BigData.Implementation" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Mappers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -177,12 +191,12 @@
       <updated>1567103718155</updated>
       <workItem from="1567103719553" duration="1466000" />
       <workItem from="1567147047677" duration="4890000" />
-      <workItem from="1567152819189" duration="79000" />
+      <workItem from="1567152819189" duration="365000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6435000" />
+    <option name="totallyTimeSpent" value="6721000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -241,18 +255,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab1/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/BigData.Implementation/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-          <folding>
-            <marker date="1567150269116" expanded="true" signature="75:391" ph="{...}" />
-            <marker date="1567150269116" expanded="true" signature="121:389" ph="{...}" />
-            <marker date="1567150269116" expanded="true" signature="201:383" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BigData.Implementation/Reducers/SumReducer.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
@@ -361,10 +363,22 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/BigData.Console/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="1" lean-forward="true" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding>
+            <marker date="1567152897472" expanded="true" signature="25:183" ph="{...}" />
+            <marker date="1567152897472" expanded="true" signature="45:181" ph="{...}" />
+            <marker date="1567152897472" expanded="true" signature="91:175" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/BigData.Console/Labs.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="20" column="1" lean-forward="true" selection-start-line="20" selection-start-column="1" selection-end-line="20" selection-end-column="1" />
+        <state relative-caret-position="180">
+          <caret line="14" column="48" lean-forward="true" selection-start-line="14" selection-start-column="48" selection-end-line="14" selection-end-column="48" />
           <folding>
             <marker date="1567152887151" expanded="false" signature="6:173" ph="..." />
             <marker date="1567152887151" expanded="true" signature="200:548" ph="{...}" />
@@ -374,14 +388,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/BigData.Console/Program.cs">
+    <entry file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
+        <state relative-caret-position="216">
+          <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
           <folding>
-            <marker date="1567152897472" expanded="true" signature="25:183" ph="{...}" />
-            <marker date="1567152897472" expanded="true" signature="45:181" ph="{...}" />
-            <marker date="1567152897472" expanded="true" signature="91:175" ph="{...}" />
+            <marker date="1567152995985" expanded="true" signature="75:389" ph="{...}" />
+            <marker date="1567152995985" expanded="true" signature="121:387" ph="{...}" />
+            <marker date="1567152995985" expanded="true" signature="201:381" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/WordCountMapper.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding>
+            <marker date="1567153183482" expanded="true" signature="75:388" ph="{...}" />
+            <marker date="1567153183482" expanded="true" signature="123:386" ph="{...}" />
+            <marker date="1567153183482" expanded="true" signature="203:380" ph="{...}" />
           </folding>
         </state>
       </provider>

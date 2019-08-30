@@ -8,7 +8,7 @@ namespace BigData.Implementation.Mappers
         {
             var value = int.Parse(inputLine);
 
-            var key = (value % 2 == 0) ? "even" : "odd";
+            var key = value % 2 == 0 ? "even" : "odd";
 
             context.EmitKeyValue(key, value.ToString());
         }

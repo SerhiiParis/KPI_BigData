@@ -41,6 +41,7 @@
         </e>
         <e p="Mappers" t="Include">
           <e p="EvenOddMapper.cs" t="Include" />
+          <e p="WordCountMapper.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
