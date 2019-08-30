@@ -4,7 +4,7 @@ using BigData.Implementation;
 using BigData.Implementation.Mappers;
 using BigData.Implementation.Reducers;
 
-namespace BigData.Console.Labs
+namespace BigData.Console
 {
     public static class Labs
     {
