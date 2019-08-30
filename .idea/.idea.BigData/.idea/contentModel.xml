@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ContentModelStore">
-    <e p="C:\projects\_my\BigData" t="IncludeFlat">
+    <e p="C:\projects\_my\KPI_BigData" t="IncludeFlat">
       <e p="BigData.Console" t="IncludeRecursive">
         <e p="_data" t="Include">
           <e p="Default" t="Include">
@@ -17,9 +17,7 @@
         <e p="Factories" t="Include">
           <e p="ConfigFactory.cs" t="Include" />
         </e>
-        <e p="Labs" t="Include">
-          <e p="Lab1.cs" t="Include" />
-        </e>
+        <e p="Labs.cs" t="Include" />
         <e p="obj" t="ExcludeRecursive">
           <e p="Debug" t="Include">
             <e p="netcoreapp2.2" t="Include">
@@ -60,6 +58,6 @@
       <e p="packages" t="ExcludeRecursive" />
     </e>
     <e p="C:\Users\sergii.paris\.Rider2019.1\system\extResources" t="IncludeRecursive" />
-    <e p="C:\Users\sergii.paris\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_BigData.1939323742.00" t="ExcludeRecursive" />
+    <e p="C:\Users\sergii.paris\.Rider2019.1\system\resharper-host\local\Transient\ReSharperHost\v191\SolutionCaches\_BigData.-1668823357.00" t="ExcludeRecursive" />
   </component>
 </project>
