@@ -1,4 +1,5 @@
 using System.Collections.Generic;
+using System.Linq;
 using Microsoft.Hadoop.MapReduce;
 
 namespace BigData.Implementation.Reducers
@@ -7,16 +8,8 @@ namespace BigData.Implementation.Reducers
     {
         public override void Reduce(string key, IEnumerable<string> values, ReducerCombinerContext context)
         {
-            int myCount = 0;
-            int mySum = 0;
-
-            foreach (string value in values)
-            {
-                mySum += int.Parse(value);
-                myCount++;
-            }
-
-            context.EmitKeyValue(key, myCount + "t" + mySum);
+            var mySum = values.Sum(int.Parse);
+            context.EmitKeyValue(key, mySum.ToString());
         }
     }
 }

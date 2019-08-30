@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7af99100-b8ad-419b-9d3d-a6f22bf70133" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BigData.Implementation/Reducers/SumReducer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BigData.Implementation/Reducers/SumReducer.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,28 +13,29 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs">
+        <entry file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/WordCountMapper.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
-              <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <state relative-caret-position="198">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
               <folding>
-                <marker date="1567152995985" expanded="true" signature="75:389" ph="{...}" />
-                <marker date="1567152995985" expanded="true" signature="121:387" ph="{...}" />
-                <marker date="1567152995985" expanded="true" signature="201:381" ph="{...}" />
+                <marker date="1567153183482" expanded="true" signature="75:388" ph="{...}" />
+                <marker date="1567153183482" expanded="true" signature="123:386" ph="{...}" />
+                <marker date="1567153183482" expanded="true" signature="203:380" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/WordCountMapper.cs">
+        <entry file="file://$PROJECT_DIR$/BigData.Implementation/Reducers/SumReducer.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+            <state relative-caret-position="252">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
-                <marker date="1567153183482" expanded="true" signature="75:388" ph="{...}" />
-                <marker date="1567153183482" expanded="true" signature="123:386" ph="{...}" />
-                <marker date="1567153183482" expanded="true" signature="203:380" ph="{...}" />
+                <marker date="1567153281427" expanded="true" signature="6:86" ph="..." />
+                <marker date="1567153281427" expanded="true" signature="129:427" ph="{...}" />
+                <marker date="1567153281427" expanded="true" signature="181:425" ph="{...}" />
+                <marker date="1567153281427" expanded="true" signature="295:419" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -66,7 +67,6 @@
         <option value="$PROJECT_DIR$/Lab1/Class1.cs" />
         <option value="$PROJECT_DIR$/BigData.Implementation/Class1.cs" />
         <option value="$PROJECT_DIR$/BigData.Lab1/Class1.cs" />
-        <option value="$PROJECT_DIR$/BigData.Implementation/Reducers/SumReducer.cs" />
         <option value="$PROJECT_DIR$/BigData.Console/Helpers/Result.cs" />
         <option value="$PROJECT_DIR$/BigData.Console/Helpers/StringHelper.cs" />
         <option value="$PROJECT_DIR$/BigData.Implementation/Factory.cs" />
@@ -83,6 +83,7 @@
         <option value="$PROJECT_DIR$/BigData.Console/Program.cs" />
         <option value="$PROJECT_DIR$/BigData.Implementation/Mappers/EvenOddMapper.cs" />
         <option value="$PROJECT_DIR$/BigData.Implementation/Mappers/WordCountMapper.cs" />
+        <option value="$PROJECT_DIR$/BigData.Implementation/Reducers/SumReducer.cs" />
       </list>
     </option>
   </component>
@@ -130,6 +131,12 @@
               <item name="BigData" type="24d0babc:SolutionExplorerModelNode" />
               <item name="BigData.Implementation" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Mappers" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="BigData" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="BigData.Implementation" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Reducers" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -191,12 +198,12 @@
       <updated>1567103718155</updated>
       <workItem from="1567103719553" duration="1466000" />
       <workItem from="1567147047677" duration="4890000" />
-      <workItem from="1567152819189" duration="365000" />
+      <workItem from="1567152819189" duration="468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6721000" />
+    <option name="totallyTimeSpent" value="6824000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -255,20 +262,6 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Lab1/Class1.cs" />
     <entry file="file://$PROJECT_DIR$/BigData.Implementation/Class1.cs" />
-    <entry file="file://$PROJECT_DIR$/BigData.Implementation/Reducers/SumReducer.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="9" lean-forward="true" selection-start-line="8" selection-start-column="9" selection-end-line="8" selection-end-column="9" />
-          <folding>
-            <marker date="1567150336159" expanded="true" signature="6:67" ph="..." />
-            <marker date="1567150336159" expanded="true" signature="110:567" ph="{...}" />
-            <marker date="1567150336159" expanded="true" signature="162:565" ph="{...}" />
-            <marker date="1567150336159" expanded="true" signature="276:559" ph="{...}" />
-            <marker date="1567150336159" expanded="true" signature="388:486" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/BigData.Lab1/Class1.cs" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/EA383519-BEE8-4E9A-BC06-F63CD9D8A405/93/c6cf457f/HadoopJobConfiguration.cs">
       <provider selected="true" editor-type-id="text-editor">
@@ -403,11 +396,24 @@
     <entry file="file://$PROJECT_DIR$/BigData.Implementation/Mappers/WordCountMapper.cs">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
             <marker date="1567153183482" expanded="true" signature="75:388" ph="{...}" />
             <marker date="1567153183482" expanded="true" signature="123:386" ph="{...}" />
             <marker date="1567153183482" expanded="true" signature="203:380" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/BigData.Implementation/Reducers/SumReducer.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding>
+            <marker date="1567153281427" expanded="true" signature="6:86" ph="..." />
+            <marker date="1567153281427" expanded="true" signature="129:427" ph="{...}" />
+            <marker date="1567153281427" expanded="true" signature="181:425" ph="{...}" />
+            <marker date="1567153281427" expanded="true" signature="295:419" ph="{...}" />
           </folding>
         </state>
       </provider>
