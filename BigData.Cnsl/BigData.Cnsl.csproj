@@ -2,7 +2,7 @@
 
     <PropertyGroup>
         <OutputType>Exe</OutputType>
-        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <TargetFramework>net452</TargetFramework>
     </PropertyGroup>
 
     <ItemGroup>
@@ -13,6 +13,12 @@
       <Reference Include="Microsoft.Hadoop.MapReduce, Version=0.12.5807.28193, Culture=neutral, PublicKeyToken=31bf3856ad364e35">
         <HintPath>..\..\..\..\Users\sergii.paris\.nuget\packages\microsoft.hadoop.mapreduce\0.12.5807.28193\lib\net40\Microsoft.Hadoop.MapReduce.dll</HintPath>
       </Reference>
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.2" />
+      <PackageReference Include="System.Net.Http" Version="4.3.4" />
+      <PackageReference Include="System.Net.Http.Formatting.Extension" Version="5.2.3" />
     </ItemGroup>
 
 </Project>

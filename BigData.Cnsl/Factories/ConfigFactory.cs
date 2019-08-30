@@ -19,7 +19,7 @@ namespace BigData.Cnsl.Factories
             if (inputFile[0] == '/')
                 inputFile = inputFile.Remove(0, 1);
             
-            var @out = inputFile.Split("/").Take(inputFile.Split("/").Length - 1);
+            var @out = inputFile.Split('/').Take(inputFile.Split('/').Length - 1);
             
             return new HadoopJobConfiguration
             {
