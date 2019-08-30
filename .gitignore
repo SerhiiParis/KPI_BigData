@@ -1,3 +1,6 @@
-BigData.Console/obj
+BigData.Cnsl/obj
 BigData.Implementation/obj/
 .idea/
+.vs/
+BigData.Cnsl/bin/Debug/netcoreapp2.2/
+BigData.Implementation/bin/Debug/netcoreapp2.2/
