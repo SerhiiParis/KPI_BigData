@@ -10,4 +10,8 @@
       </Reference>
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Include="Microsoft.Hadoop.MapReduce" Version="0.12.5807.28193" />
+    </ItemGroup>
+
 </Project>
