@@ -1,0 +1,13 @@
+C:\projects\_my\KPI_BigData\BigData.Implementation\bin\Debug\net452\BigData.Implementation.dll
+C:\projects\_my\KPI_BigData\BigData.Implementation\bin\Debug\net452\BigData.Implementation.pdb
+C:\projects\_my\KPI_BigData\BigData.Implementation\bin\Debug\net452\Microsoft.Hadoop.MapReduce.dll
+C:\projects\_my\KPI_BigData\BigData.Implementation\bin\Debug\net452\Microsoft.Hadoop.WebClient.dll
+C:\projects\_my\KPI_BigData\BigData.Implementation\bin\Debug\net452\Microsoft.WindowsAzure.Management.Framework.dll
+C:\projects\_my\KPI_BigData\BigData.Implementation\bin\Debug\net452\Microsoft.WindowsAzure.Management.Framework.Threading.dll
+C:\projects\_my\KPI_BigData\BigData.Implementation\obj\Debug\net452\BigData.Implementation.csproj.CoreCompileInputs.cache
+C:\projects\_my\KPI_BigData\BigData.Implementation\obj\Debug\net452\BigData.Implementation.AssemblyInfoInputs.cache
+C:\projects\_my\KPI_BigData\BigData.Implementation\obj\Debug\net452\BigData.Implementation.AssemblyInfo.cs
+C:\projects\_my\KPI_BigData\BigData.Implementation\obj\Debug\net452\BigData.Implementation.csproj.CopyComplete
+C:\projects\_my\KPI_BigData\BigData.Implementation\obj\Debug\net452\BigData.Implementation.dll
+C:\projects\_my\KPI_BigData\BigData.Implementation\obj\Debug\net452\BigData.Implementation.pdb
+C:\projects\_my\KPI_BigData\BigData.Implementation\obj\Debug\net452\BigData.Implementation.csprojAssemblyReference.cache

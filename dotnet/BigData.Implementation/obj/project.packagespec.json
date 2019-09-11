@@ -1,0 +1,33 @@
+﻿{
+  "version": "1.0.0",
+  "restore": {
+    "projectUniqueName": "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\BigData.Implementation.csproj",
+    "projectName": "BigData.Implementation",
+    "projectPath": "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\BigData.Implementation.csproj",
+    "outputPath": "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\obj\\",
+    "projectStyle": "PackageReference",
+    "fallbackFolders": [
+      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+    ],
+    "originalTargetFrameworks": [
+      "net452"
+    ],
+    "sources": {
+      "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+      "https://api.nuget.org/v3/index.json": {}
+    },
+    "frameworks": {
+      "net452": {
+        "projectReferences": {}
+      }
+    },
+    "warningProperties": {
+      "warnAsError": [
+        "NU1605"
+      ]
+    }
+  },
+  "frameworks": {
+    "net452": {}
+  }
+}

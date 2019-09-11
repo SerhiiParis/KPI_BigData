@@ -1,0 +1,276 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.5.2": {
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Net.Http/4.3.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Net.Http.Formatting.Extension/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http": "(, )"
+        },
+        "frameworkAssemblies": [
+          "System.Net"
+        ],
+        "compile": {
+          "lib/System.Net.Http.Extensions.dll": {},
+          "lib/System.Net.Http.Formatting.dll": {},
+          "lib/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/System.Net.Http.Extensions.dll": {},
+          "lib/System.Net.Http.Formatting.dll": {},
+          "lib/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "BigData.Implementation/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "compile": {
+          "bin/placeholder/BigData.Implementation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BigData.Implementation.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.5.2/win7-x86": {
+      "Newtonsoft.Json/12.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        },
+        "runtime": {
+          "lib/net45/Newtonsoft.Json.dll": {}
+        }
+      },
+      "System.Net.Http/4.3.4": {
+        "type": "package",
+        "frameworkAssemblies": [
+          "System.Net.Http"
+        ],
+        "compile": {
+          "ref/net45/_._": {}
+        },
+        "runtime": {
+          "lib/net45/_._": {}
+        }
+      },
+      "System.Net.Http.Formatting.Extension/5.2.3": {
+        "type": "package",
+        "dependencies": {
+          "System.Net.Http": "(, )"
+        },
+        "frameworkAssemblies": [
+          "System.Net"
+        ],
+        "compile": {
+          "lib/System.Net.Http.Extensions.dll": {},
+          "lib/System.Net.Http.Formatting.dll": {},
+          "lib/System.Net.Http.Primitives.dll": {}
+        },
+        "runtime": {
+          "lib/System.Net.Http.Extensions.dll": {},
+          "lib/System.Net.Http.Formatting.dll": {},
+          "lib/System.Net.Http.Primitives.dll": {}
+        }
+      },
+      "BigData.Implementation/1.0.0": {
+        "type": "project",
+        "framework": ".NETFramework,Version=v4.5.2",
+        "compile": {
+          "bin/placeholder/BigData.Implementation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/BigData.Implementation.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Newtonsoft.Json/12.0.2": {
+      "sha512": "mtweBXPWhp1CMQATtBT7ZfMZrbZBTKfjGwz6Y75NwGjx/GztDaUnfw8GK9KZ2T4fDIqKJyDjc9Rxlw5+G2FcVA==",
+      "type": "package",
+      "path": "newtonsoft.json/12.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net40+sl5+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.dll",
+        "lib/portable-net45+win8+wp8+wpa81/Newtonsoft.Json.xml",
+        "newtonsoft.json.12.0.2.nupkg.sha512",
+        "newtonsoft.json.nuspec"
+      ]
+    },
+    "System.Net.Http/4.3.4": {
+      "sha512": "aOa2d51SEbmM+H+Csw7yJOuNZoHkrP2XnAurye5HWYgGVVU54YZDvsLUYRv6h18X3sPnjNCANmN7ZhIPiqMcjA==",
+      "type": "package",
+      "path": "system.net.http/4.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "ThirdPartyNotices.txt",
+        "dotnet_library_license.txt",
+        "lib/Xamarinmac20/_._",
+        "lib/monoandroid10/_._",
+        "lib/monotouch10/_._",
+        "lib/net45/_._",
+        "lib/net46/System.Net.Http.dll",
+        "lib/portable-net45+win8+wpa81/_._",
+        "lib/win8/_._",
+        "lib/wpa81/_._",
+        "lib/xamarinios10/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/Xamarinmac20/_._",
+        "ref/monoandroid10/_._",
+        "ref/monotouch10/_._",
+        "ref/net45/_._",
+        "ref/net46/System.Net.Http.dll",
+        "ref/netcore50/System.Net.Http.dll",
+        "ref/netstandard1.1/System.Net.Http.dll",
+        "ref/netstandard1.3/System.Net.Http.dll",
+        "ref/portable-net45+win8+wpa81/_._",
+        "ref/win8/_._",
+        "ref/wpa81/_._",
+        "ref/xamarinios10/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netstandard1.6/System.Net.Http.dll",
+        "runtimes/win/lib/net46/System.Net.Http.dll",
+        "runtimes/win/lib/netcore50/System.Net.Http.dll",
+        "runtimes/win/lib/netstandard1.3/System.Net.Http.dll",
+        "system.net.http.4.3.4.nupkg.sha512",
+        "system.net.http.nuspec"
+      ]
+    },
+    "System.Net.Http.Formatting.Extension/5.2.3": {
+      "sha512": "d8ITU2wi/Oilg4Xxf5ehaATJKAa95fWwrtnWLk+Sy78L1KMyB4RUKVint0WfOaplAT/+kVGEmW9EMzFsTrneAw==",
+      "type": "package",
+      "path": "system.net.http.formatting.extension/5.2.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/System.Net.Http.Extensions.dll",
+        "lib/System.Net.Http.Formatting.dll",
+        "lib/System.Net.Http.Primitives.dll",
+        "system.net.http.formatting.extension.5.2.3.nupkg.sha512",
+        "system.net.http.formatting.extension.nuspec"
+      ]
+    },
+    "BigData.Implementation/1.0.0": {
+      "type": "project",
+      "path": "../BigData.Implementation/BigData.Implementation.csproj",
+      "msbuildProject": "../BigData.Implementation/BigData.Implementation.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.5.2": [
+      "BigData.Implementation >= 1.0.0",
+      "Newtonsoft.Json >= 12.0.2",
+      "System.Net.Http >= 4.3.4",
+      "System.Net.Http.Formatting.Extension >= 5.2.3"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\sergii.paris\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\projects\\_my\\KPI_BigData\\BigData.Cnsl\\BigData.Cnsl.csproj",
+      "projectName": "BigData.Cnsl",
+      "projectPath": "C:\\projects\\_my\\KPI_BigData\\BigData.Cnsl\\BigData.Cnsl.csproj",
+      "packagesPath": "C:\\Users\\sergii.paris\\.nuget\\packages\\",
+      "outputPath": "C:\\projects\\_my\\KPI_BigData\\BigData.Cnsl\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\sergii.paris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net452"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net452": {
+          "projectReferences": {
+            "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\BigData.Implementation.csproj": {
+              "projectPath": "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\BigData.Implementation.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net452": {
+        "dependencies": {
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.2, )"
+          },
+          "System.Net.Http": {
+            "target": "Package",
+            "version": "[4.3.4, )"
+          },
+          "System.Net.Http.Formatting.Extension": {
+            "target": "Package",
+            "version": "[5.2.3, )"
+          }
+        }
+      }
+    },
+    "runtimes": {
+      "win7-x86": {
+        "#import": []
+      }
+    }
+  }
+}

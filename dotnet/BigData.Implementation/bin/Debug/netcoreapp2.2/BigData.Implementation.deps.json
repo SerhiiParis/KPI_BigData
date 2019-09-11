@@ -1,0 +1,78 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v2.2",
+    "signature": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v2.2": {
+      "BigData.Implementation/1.0.0": {
+        "dependencies": {
+          "Microsoft.Hadoop.MapReduce": "0.12.5807.28193"
+        },
+        "runtime": {
+          "BigData.Implementation.dll": {}
+        }
+      },
+      "Microsoft.Hadoop.MapReduce/0.12.5807.28193": {
+        "runtime": {
+          "Microsoft.Hadoop.MapReduce.dll": {
+            "assemblyVersion": "0.12.5807.28193",
+            "fileVersion": "0.12.5807.28193"
+          }
+        }
+      },
+      "Microsoft.Hadoop.WebClient/0.12.5807.28193": {
+        "runtime": {
+          "Microsoft.Hadoop.WebClient.dll": {
+            "assemblyVersion": "0.12.5807.28193",
+            "fileVersion": "0.12.5807.28193"
+          }
+        }
+      },
+      "Microsoft.WindowsAzure.Management.Framework/0.12.5807.28193": {
+        "runtime": {
+          "Microsoft.WindowsAzure.Management.Framework.dll": {
+            "assemblyVersion": "0.12.5807.28193",
+            "fileVersion": "0.12.5807.28193"
+          }
+        }
+      },
+      "Microsoft.WindowsAzure.Management.Framework.Threading/0.12.5807.28193": {
+        "runtime": {
+          "Microsoft.WindowsAzure.Management.Framework.Threading.dll": {
+            "assemblyVersion": "0.12.5807.28193",
+            "fileVersion": "0.12.5807.28193"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "BigData.Implementation/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Hadoop.MapReduce/0.12.5807.28193": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.Hadoop.WebClient/0.12.5807.28193": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.WindowsAzure.Management.Framework/0.12.5807.28193": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Microsoft.WindowsAzure.Management.Framework.Threading/0.12.5807.28193": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

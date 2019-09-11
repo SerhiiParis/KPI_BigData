@@ -1,0 +1,108 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\projects\\_my\\KPI_BigData\\BigData.Cnsl\\BigData.Cnsl.csproj": {}
+  },
+  "projects": {
+    "C:\\projects\\_my\\KPI_BigData\\BigData.Cnsl\\BigData.Cnsl.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\_my\\KPI_BigData\\BigData.Cnsl\\BigData.Cnsl.csproj",
+        "projectName": "BigData.Cnsl",
+        "projectPath": "C:\\projects\\_my\\KPI_BigData\\BigData.Cnsl\\BigData.Cnsl.csproj",
+        "packagesPath": "C:\\Users\\sergii.paris\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\_my\\KPI_BigData\\BigData.Cnsl\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sergii.paris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "projectReferences": {
+              "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\BigData.Implementation.csproj": {
+                "projectPath": "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\BigData.Implementation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net452": {
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.2, )"
+            },
+            "System.Net.Http": {
+              "target": "Package",
+              "version": "[4.3.4, )"
+            },
+            "System.Net.Http.Formatting.Extension": {
+              "target": "Package",
+              "version": "[5.2.3, )"
+            }
+          }
+        }
+      },
+      "runtimes": {
+        "win7-x86": {
+          "#import": []
+        }
+      }
+    },
+    "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\BigData.Implementation.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\BigData.Implementation.csproj",
+        "projectName": "BigData.Implementation",
+        "projectPath": "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\BigData.Implementation.csproj",
+        "packagesPath": "C:\\Users\\sergii.paris\\.nuget\\packages\\",
+        "outputPath": "C:\\projects\\_my\\KPI_BigData\\BigData.Implementation\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\sergii.paris\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net452"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net452": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net452": {}
+      }
+    }
+  }
+}
