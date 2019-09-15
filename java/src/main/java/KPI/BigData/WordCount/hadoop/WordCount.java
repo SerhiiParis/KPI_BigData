@@ -38,7 +38,7 @@ public class WordCount {
     public static class Worker {
          public static void Start(String input, String output) throws IOException {
              JobConf conf = new JobConf(WordCount.class);
-             conf.setJobName("wordcount");
+             conf.setJobName("wordcount_hadoop");
 
              conf.setOutputKeyClass(Text.class);
              conf.setOutputValueClass(IntWritable.class);
