@@ -1,5 +1,6 @@
-package KPI.BigData;
+package KPI.BigData.WordCount.hadoop;
 
+import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.io.IntWritable;
 import org.apache.hadoop.io.LongWritable;
 import org.apache.hadoop.io.Text;
@@ -34,4 +35,25 @@ public class WordCount {
         }
     }
 
+    public static class Worker {
+         public static void Start(String input, String output) throws IOException {
+             JobConf conf = new JobConf(WordCount.class);
+             conf.setJobName("wordcount");
+
+             conf.setOutputKeyClass(Text.class);
+             conf.setOutputValueClass(IntWritable.class);
+
+             conf.setMapperClass(WordCount.Map.class);
+             conf.setCombinerClass(WordCount.Reduce.class);
+             conf.setReducerClass(WordCount.Reduce.class);
+
+             conf.setInputFormat(TextInputFormat.class);
+             conf.setOutputFormat(TextOutputFormat.class);
+
+             FileInputFormat.setInputPaths(conf, new Path(input));
+             FileOutputFormat.setOutputPath(conf, new Path(output));
+
+             JobClient.runJob(conf);
+         }
+    }
 }
