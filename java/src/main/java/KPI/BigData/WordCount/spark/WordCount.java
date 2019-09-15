@@ -14,9 +14,8 @@ import java.util.stream.Collectors;
 
 public class WordCount {
     private static final Pattern SPACE = Pattern.compile(" ");
-    private static final String INPUT_PATH = "src/main/resources/input.txt";
 
-    public static void Start() throws IOException {
+    public static void Start(String input, String __output) throws IOException {
         SparkSession spark = SparkSession
                 .builder()
                 .appName("wordcount_spark")
@@ -24,7 +23,7 @@ public class WordCount {
                 .config("spark.sql.warehouse.dir", "file:///c:/tmp/spark-warehouse")
                 .getOrCreate();
 
-        JavaRDD<String> lines = spark.read().textFile(INPUT_PATH).javaRDD();
+        JavaRDD<String> lines = spark.read().textFile(input).javaRDD();
 
         JavaRDD<String> words = lines.flatMap(s -> Arrays.asList(SPACE.split(s)).iterator());
 
