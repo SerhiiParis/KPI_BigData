@@ -1,4 +1,4 @@
-package KPI.BigData.WordCount.spark;
+package KPI.BigData.spark;
 
 import org.apache.spark.api.java.JavaPairRDD;
 import org.apache.spark.api.java.JavaRDD;
