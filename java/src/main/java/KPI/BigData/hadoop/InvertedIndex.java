@@ -22,25 +22,13 @@ public class InvertedIndex {
         @Override
         public void map(Object key, Text value, Context context)
                 throws IOException, InterruptedException {
-            //there are 3 input files：1.txt("MapReduce is Simple")
-            //2.txt("MapReduce is powerful is Simple")
-            //3.txt("Hello MapReduce bye MapReduce")
-
             split = (FileSplit)context.getInputSplit();
-            //get the FileSplit tatget of <key,value>
-
-            //"value" saves one line of message in the txt file
-            //"key" is the offset of the initial and the head address of txt file
-
             StringTokenizer itr = new StringTokenizer(value.toString());
-            //StringTokenizer splits each row into words combination and output <word, 1> as the result of mapping
 
             while(itr.hasMoreTokens()){
-                //key is the combination of words and URI
                 keyInfo.set(itr.nextToken()+":"+split.getPath().toString());
                 valueInfo.set("1");
                 context.write(keyInfo, valueInfo);
-                //output：<key,value>---<"MapReduce:1.txt",1>
             }
         }
     }
@@ -51,8 +39,6 @@ public class InvertedIndex {
         @Override
         protected void reduce(Text key, Iterable<Text> values,Context context)
                 throws IOException, InterruptedException {
-            //input：<key,value>---<"MapReduce:1.txt",list(1,1,1,1)>
-            //key="MapReduce:1.txt",value=list(1,1,1,1);
             int sum = 0;
             for(Text value : values){
                 sum += Integer.parseInt(value.toString());
@@ -62,7 +48,6 @@ public class InvertedIndex {
             info.set(key.toString().substring(splitIndex+1)+":"+sum);
             key.set(key.toString().substring(0,splitIndex));
             context.write(key, info);
-            //output:<key,value>----<"Mapreduce","0.txt:2">
         }
     }
 
@@ -73,15 +58,13 @@ public class InvertedIndex {
         @Override
         protected void reduce(Text key, Iterable<Text> values,Context context)
                 throws IOException, InterruptedException {
-            //input：<"MapReduce",list("0.txt:1","1.txt:1","2.txt:1")>
-            //output：<"MapReduce","0.txt:1,1.txt:1,2.txt:1">
             String fileList = new String();
-            for(Text value : values){//value="0.txt:1"
+
+            for(Text value : values){
                 fileList += value.toString()+";";
             }
             result.set(fileList);
             context.write(key, result);
-            //output：<"MapReduce","0.txt:1,1.txt:1,2.txt:1">
         }
     }
 
