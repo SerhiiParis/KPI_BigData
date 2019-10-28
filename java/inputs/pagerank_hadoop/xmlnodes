@@ -1,0 +1,462 @@
+<mediawiki xmlns="http://www.mediawiki.org/xml/export-0.10/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.mediawiki.org/xml/export-0.10/ http://www.mediawiki.org/xml/export-0.10.xsd" version="0.10" xml:lang="en">
+  <siteinfo>
+    <sitename>Wikipedia</sitename>
+    <dbname>enwiki</dbname>
+    <base>https://en.wikipedia.org/wiki/Main_Page</base>
+    <generator>MediaWiki 1.35.0-wmf.3</generator>
+    <case>first-letter</case>
+    <namespaces>
+      <namespace key="-2" case="first-letter">Media</namespace>
+      <namespace key="-1" case="first-letter">Special</namespace>
+      <namespace key="0" case="first-letter" />
+      <namespace key="1" case="first-letter">Talk</namespace>
+      <namespace key="2" case="first-letter">User</namespace>
+      <namespace key="3" case="first-letter">User talk</namespace>
+      <namespace key="4" case="first-letter">Wikipedia</namespace>
+      <namespace key="5" case="first-letter">Wikipedia talk</namespace>
+      <namespace key="6" case="first-letter">File</namespace>
+      <namespace key="7" case="first-letter">File talk</namespace>
+      <namespace key="8" case="first-letter">MediaWiki</namespace>
+      <namespace key="9" case="first-letter">MediaWiki talk</namespace>
+      <namespace key="10" case="first-letter">Template</namespace>
+      <namespace key="11" case="first-letter">Template talk</namespace>
+      <namespace key="12" case="first-letter">Help</namespace>
+      <namespace key="13" case="first-letter">Help talk</namespace>
+      <namespace key="14" case="first-letter">Category</namespace>
+      <namespace key="15" case="first-letter">Category talk</namespace>
+      <namespace key="100" case="first-letter">Portal</namespace>
+      <namespace key="101" case="first-letter">Portal talk</namespace>
+      <namespace key="108" case="first-letter">Book</namespace>
+      <namespace key="109" case="first-letter">Book talk</namespace>
+      <namespace key="118" case="first-letter">Draft</namespace>
+      <namespace key="119" case="first-letter">Draft talk</namespace>
+      <namespace key="446" case="first-letter">Education Program</namespace>
+      <namespace key="447" case="first-letter">Education Program talk</namespace>
+      <namespace key="710" case="first-letter">TimedText</namespace>
+      <namespace key="711" case="first-letter">TimedText talk</namespace>
+      <namespace key="828" case="first-letter">Module</namespace>
+      <namespace key="829" case="first-letter">Module talk</namespace>
+      <namespace key="2300" case="first-letter">Gadget</namespace>
+      <namespace key="2301" case="first-letter">Gadget talk</namespace>
+      <namespace key="2302" case="case-sensitive">Gadget definition</namespace>
+      <namespace key="2303" case="case-sensitive">Gadget definition talk</namespace>
+    </namespaces>
+  </siteinfo>
+  <page>
+    <title>Hilversum</title>
+    <ns>0</ns>
+    <id>13686</id>
+    <revision>
+      <id>921057641</id>
+      <parentid>921056723</parentid>
+      <timestamp>2019-10-13T15:54:08Z</timestamp>
+      <contributor>
+        <username>A Gift and a Curse</username>
+        <id>37579887</id>
+      </contributor>
+      <comment>Undid revision 921056723 by [[Special:Contributions/Yeahitssean|Yeahitssean]] ([[User talk:Yeahitssean|talk]])</comment>
+      <model>wikitext</model>
+      <format>text/x-wiki</format>
+      <text xml:space="preserve" bytes="25601">{{Use dmy dates|date=May 2012}}
+{{Infobox settlement
+| name                    = Hilversum
+| settlement_type         = [[List of cities in the Netherlands by province|City]] and [[List of municipalities of the Netherlands|municipality]]
+&lt;!-- Images, nickname, motto --&gt;
+| image_skyline           = Gemeentehuishilversum.jpg
+| image_alt               =
+| image_caption           = [[Hilversum Town Hall]]
+| image_flag              = Hilversum vlag.svg
+| flag_size               = 100x67px
+| flag_alt                =
+| image_shield            = Coat of arms of Hilversum.svg
+| shield_size             = 100x80px
+| shield_alt              =
+&lt;!-- Maps, coordinates --&gt;
+| image_map               = Map - NL - Municipality code 0402 (2009).svg
+| map_alt                 = Highlighted position of Hilversum in a municipal map of North Holland
+| map_caption             = Location in North Holland
+| coordinates             = {{coord|52|14|N|5|10|E|region:NL|display=inline,title}}
+| coordinates_footnotes   =
+| subdivision_type        = [[List of sovereign states|Country]]
+| subdivision_name        = [[Netherlands]]
+| subdivision_type1       = [[Provinces of the Netherlands|Province]]
+| subdivision_name1       = {{flag|North Holland}}
+| seat_type               = [[Seat of local government|Town Hall]]
+| seat                    = [[Hilversum Town Hall]]
+| government_footnotes    = &lt;ref name="mayor_now"&gt;{{cite web
+ |url = http://www.hilversum.nl/Inwoners/Politiek/College_van_Burgemeester_en_Wethouders
+ |title = College van Burgemeester en Wethouders
+ |trans-title=Board of mayor and aldermen
+ |language = Dutch
+ |author =
+ |date =
+ |work =
+ |publisher = Gemeente Hilversum
+ |accessdate = 1 August 2014}}&lt;/ref&gt;
+| governing_body          = [[Municipal council (Netherlands)|Municipal council]]
+| leader_party            = [[Labour Party (Netherlands)|PvdA]]
+| leader_title            = [[Burgemeester|Mayor]]
+| leader_name             = [[Pieter Broertjes]]
+| leader_title1           = [[Wethouder|Aldermen]]
+| leader_name1            = {{Collapsible list
+  |title=List of aldermen
+  |1= Wimar Jaeger
+  |2= Floris Voorink
+  |3= Willem van der Spek
+  |4= Eric van der Want
+ }}
+&lt;!-- Geographic information --&gt;
+| unit_pref               = Metric
+&lt;!-- ALL fields with measurements have automatic unit conversion --&gt;
+&lt;!-- for references: use &lt;ref&gt; tags --&gt;
+| area_footnotes          = &lt;ref&gt;{{Dutch municipality total area|dataref}}&lt;/ref&gt;
+&lt;!-- square kilometers --&gt;
+| area_total_km2          = {{Dutch municipality total area|Hilversum}}
+| area_land_km2           = {{Dutch municipality land area|Hilversum}}
+| area_water_km2          = {{Dutch municipality water area|Hilversum}}
+| elevation_footnotes     = &lt;ref name="AHN"&gt;{{cite web
+ |url = http://www.ahn.nl/pagina/postcodetool.html
+ |title = AHN Postcode tool for 1217JE
+ |trans-title=|language = Dutch
+ |author = &lt;!--Staff writer(s); no by-line.--&gt;
+ |date =
+ |work = Actueel Hoogtebestand Nederland
+ |publisher = Het Waterschapshuis
+ |accessdate = 1 August 2014}}&lt;/ref&gt;
+| elevation_m             = 15
+| elevation_max_footnotes = &lt;!-- for references: use &lt;ref&gt; tags --&gt;
+| elevation_max_m         =
+| elevation_min_footnotes = &lt;!-- for references: use &lt;ref&gt; tags --&gt;
+| elevation_min_m         =
+&lt;!-- Population, demographics --&gt;
+| population_footnotes    = &lt;ref&gt;{{Dutch municipality population|dataref}}&lt;/ref&gt;
+| population_total        = 90,261
+| population_as_of        = {{MONTHNAME|{{Dutch municipality population|popbasemonth}}}} {{Dutch municipality population|popbaseyear}}
+| population_density_km2  = {{Dutch municipality population density|Hilversum}} &lt;!-- For automatic calculation: auto--&gt;
+| population_demonym      = Hilversummer (male), Hilversumse (female)
+&lt;!-- Other information --&gt;
+| timezone                = [[Central European Time|CET]]
+| utc_offset              = +1
+| timezone_DST            = [[Central European Summer Time|CEST]]
+| utc_offset_DST          = +2
+| postal_code_type        = [[Postal codes in the Netherlands|Postcode]]
+| postal_code             = 1200–1223
+| area_code_type          = [[Telephone numbers in the Netherlands|Area code]]
+| area_code               = 035
+| website                 = {{URL|1=http://www.hilversum.nl}}
+| footnotes               =
+}}
+
+'''Hilversum''' ({{IPA-nl|ˈɦɪlvərsʏm|-|Nl-Hilversum.ogg}}) is a [[List of cities in the Netherlands by province|city]] and [[List of municipalities of the Netherlands|municipality]] in the [[Provinces of the Netherlands|province]] of [[North Holland]], [[Netherlands]]. Located in the heart of the [[Gooi]], it is the largest urban centre in that area. It is surrounded by [[heathland]], [[Forest|wood]]s, [[meadow]]s, lakes, and smaller towns. Hilversum is part of the [[Randstad]], one of the largest [[conurbation]]s in [[Europe]].
+
+== Town ==
+Hilversum lies {{convert|24|km|abbr=on}} south-east of [[Amsterdam]] and {{convert|15|km|abbr=on}} north of [[Utrecht (city)|Utrecht]]. The town is known for its architecturally important [[Hilversum Town Hall|Town Hall (Raadhuis Hilversum)]], designed by [[Willem Marinus Dudok]] and built in 1931.
+
+Hilversum has one public library, two swimming pools (Van Hellemond Sport and De Lieberg), a number of sporting halls and several shopping centres (such as Hilvertshof, Winkelcentrum Kerkelanden, De Riebeeckgalerij and Winkelcentrum Seinhorst). Locally, the town centre is known as ''het dorp'', which means "the village".
+
+=== Broadcasting ===
+Hilversum is often called "media city", since it is the principal centre for radio and television broadcasting in the Netherlands, and is home to an extensive complex of radio and television [[studio]]s and to the administrative headquarters of the multiple broadcasting organizations which make up the [[Netherlands Public Broadcasting]] system. Hilversum is also home to many newer commercial TV production companies. [[Radio Netherlands]], which has been broadcasting worldwide via [[shortwave radio]] since the 1920s, is also based here.
+
+The following is a list of organizations that have, or are continuing to, broadcast from studios in Hilversum:
+
+* [[NCRV]] (1924–2013)
+* [[KRO]] (1925–2013)
+* [[Omroepvereniging VARA|VARA]] (1925–2013)
+* [[VPRO]] (1926–present)
+* [[AVRO]] (1927–2013)
+* [[Omroep NTR#History|RVU]] (1930–2010)
+* [[Interkerkelijk Overleg inzake Radioaangelegenheden|IKOR]] (1946–1975)
+* [[Nederlandse Radio Unie|NRU]] (1947–1969)
+* [[Radio Nederland Wereldomroep|RNW]] (1947–2012)
+* [[Nederlandse Televisie Stichting|NTS]] (1951–1969)
+* [[Interkerkelijke Omroep Nederland|IKON]] (1976–2015)
+* [[Nederlandse Onderwijs Televisie|NOT]] (1962–1996)
+* [[Teleac (broadcaster)|Teleac]] (1963–2010)
+* [[TROS]] (1964–2013)
+* [[Evangelische Omroep|EO]] (1967–present)
+* [[Nederlandse Omroep Stichting|NOS]] (1969–present)
+* [[Veronica (media)|VOO]] (1976–1995)
+* [[Humanistische Omroep|Human]] (1989–present)
+* [[Nederlandse Programma Stichting|NPS]] (1995–2010)
+* [[BNN (Dutch broadcaster)|BNN]] (1997–2013)
+* [[Omroep MAX|MAX]] (2005–present)
+* [[PowNed]] (2009–present)
+* [[Wakker Nederland|WNL]] (2009–present)
+* [[Omroep NTR|NTR]] (2010–present)
+* [[AVROTROS]] (2014–present)
+* [[BNN-VARA|BNNVARA]] (2014–present)
+* [[KRO-NCRV]] (2014–present)
+
+One result of the town's history as an important radio transmission centre is that many older radio sets throughout Europe featured ''Hilversum'' as a pre-marked dial position on their tuning scales.
+
+Dutch national voting in the [[Eurovision Song Contest]] is normally co-ordinated from Hilversum.
+
+===International===
+
+Hilversum has a variety of international schools, such as the ''Violenschool'' and ''International School Hilversum "Alberdingk Thijm"''. Also, [[Nike,_Inc.|Nike]]'s&lt;ref&gt;https://jobs.nike.com/ehq&lt;/ref&gt;, [[Hunkemöller]]'s&lt;ref&gt;[[Talk:Hilversum#cite note-2]]&lt;/ref&gt;{{Circular reference|date=March 2019}} and [[Converse_(shoe_company)|Converse]]'s&lt;ref&gt;https://jobs.converse.com/locations&lt;/ref&gt; European headquarters are located in Hilversum.
+
+== History ==
+Earthenware found in Hilversum gives its name to the [[Hilversum culture]], which is an early- to mid-Bronze Age, or 800–1200 BC [[material culture]]. Artifacts from this prehistoric civilization bear similarities to the Wessex Culture of southern Britain and may indicate that the first Hilversum residents emigrated from that area.&lt;ref&gt;{{cite web|url=http://iguide.travel/Hilversum/Overview/History |title=Hilversum: Overview - History |publisher=Iguide.travel |accessdate=5 May 2012}}&lt;/ref&gt; The first brick settlements formed around 900, but it was not until 1305 that the first official mention of Hilversum ("Hilfersheem" from "Hilvertshem" meaning "houses between the hills") is found. At that point it was a part of [[Naarden]], the oldest town in the Gooi area.
+
+[[File:Johannes Bosboom - Interieur van een boerendeel bij Hilversum.jpg|thumb|left|''Interior of a farm near Hilversum'', a 19th-century drawing by [[Johannes Bosboom]]]]
+Farming, raising sheep and some wool manufacturing were the means of life for the Gooi in the Middle Ages. In 1424 Hilversum received its first official independent status. This made possible further growth in the village because permission from Naarden was no longer needed for new industrial development.
+
+The town grew further in the 17th century when the Dutch economy as a whole entered its age of prosperity, and several canals were built connecting it indirectly to Amsterdam.
+
+In 1725 and 1766 large fires destroyed most of the town, leveling parts of the old townhouse and the church next to it. The town overcame these setbacks and the textile industry continued to develop, among other ways by devising a way to weave cows' hair.
+
+In the 19th century a substantial textile and tapestry industry emerged, aided by a railway link to Amsterdam in 1874.  From that time the town grew quickly with rich commuters from Amsterdam moving in, building themselves large villas in the wooded surroundings, and gradually starting to live in Hilversum permanently.  Despite this growth, Hilversum was never granted [[city rights in the Low Countries|city rights]] so it is still referred to by many locals as "het dorp," or "the village."
+
+For the [[1928 Summer Olympics]] in neighboring [[Amsterdam]], it hosted all of the non-jumping [[Equestrian at the 1928 Summer Olympics|equestrian]] and the running part of the [[Modern pentathlon at the 1928 Summer Olympics|modern pentathlon]] event.&lt;ref&gt;[https://web.archive.org/web/20080408184510/http://www.la84foundation.org/6oic/OfficialReports/1928/1928.pdf 1928 Summer Olympics official report.] pp. 271–8.&lt;/ref&gt;
+
+The ''Nederlandse Seintoestellen Fabriek'' (NSF) company established a professional transmitter and radio factory in Hilversum in the early 1920s, growing into the largest of its kind in the Netherlands.
+
+Following the [[Battle of the Netherlands|defeat of Allied forces in the Netherlands]] in 1940, and its occupation by [[Nazi Germany]], Hilversum became the headquarters of the [[German Army (Wehrmacht)|German Army]] (''Heer'') in the Netherlands.{{citation needed|reason=Time reference needed|date=April 2015}}.
+
+In 1948, NSF was taken over by [[Philips]]. However, Dutch radio broadcasting organizations (followed by television broadcasters during the 1950s) centralised their operations in Hilversum, providing a source of continuing economic growth.  The concentration of broadcasters in Hilversum has given it its enduring status as the media city for the Netherlands.
+
+In 1964, the population reached a record high – over 103,000 people called Hilversum home. However, the textile industry had started its decline; only one factory, Veneta, managed to continue into the 1960s, when it also had to close its doors. Another major industry, the chemical factory IFF, also closed by the end of the 1960s.
+
+After the 1960s, the population gradually declined, until stabilising at around 85,000.  Several factors other than the slump in manufacturing have featured in this decline: one is the fact that the average family nowadays consists of fewer people, so fewer people live in each house; second, the town is virtually unable to expand because all the surrounding lands were sold by city architect [[Willem Marinus Dudok|W.M. Dudok]] to the [[Goois Natuurreservaat]] (''[[:nl:Goois Natuurreservaat|nl]]''). The third reason for this decline of the population was because the property values were increasing rapidly in that moment of time, and many people were forced to move to less expensive areas in the Netherlands.
+
+Some sources blame connections in the television world for attracting crime to Hilversum;{{cn|date=December 2018}} the town has had to cope with mounting drug-related issues in a community with higher than average unemployment and ongoing housing shortage.
+
+Hilversum was one of the first towns to have a local party of the populist movement called [[Livable Netherlands|''Leefbaar'' ("liveable")]]. Founded by former social-democrat party strongman Jan Nagel, it was initially held at bay for alderman positions. In 2001, Nagel from Leefbaar Hilversum teamed up with Leefbaar Utrecht leaders to found a national Leefbaar Nederland party. By strange coincidence, in 2002 the most vocal Leefbaar Rotterdam politician [[Pim Fortuyn]] was shot and killed by an animal rights activist at [[Media Park (Hilversum)|Hilversum Media Park]] just after finishing a radio interview. This happened, however, after a break between Fortuyn and Nagel during a Leefbaar Nederland board meeting in Hilversum on Fortuyn's anti-Islamic viewpoints.
+
+The town of Hilversum has put a great deal of effort into improvements, including a recent renovation to its central train station, thorough renovation of the main shopping centre (Hilvertshof), and development of new dining and retail districts downtown including the "vintage" district in the Leeuwenstraat.  Several notable architectural accomplishments include the [[Netherlands Institute for Sound and Vision|Institute for Sound and Vision]],&lt;ref&gt;{{cite web|url=http://experience.beeldengeluid.nl/index.aspx?chapterID=7878 |title=Beeld en Geluid |publisher=Experience.beeldengeluid.nl |archiveurl=https://web.archive.org/web/20091118210918/http://experience.beeldengeluid.nl/index.aspx?chapterID=7878 |archivedate=18 November 2009 |url-status=live |df=dmy }}&lt;/ref&gt; and [[Zanderij Crailoo]] (''[[:nl:Natuurbrug Zanderij Crailoo|nl]]''), the largest man-made [[wildlife crossing]] in the world.
+
+The nearby [[Media Park (Hilversum)|Media Park]] was the scene of [[Assassination of Pim Fortuyn|the 2002 assassination]] of politician [[Pim Fortuyn]]; in 2015, a gunman carrying a false pistol stormed into [[Nederlandse Omroep Stichting]]'s headquarters, demanding airtime on the evening news.
+
+The population declined from 103,000 in 1964 to 84,000 in 2006, but rose again to 90.000 in 2018. The decline is mostly due to the fact that families are smaller these days.
+
+==Culture==
+[[File:Reproductie uit gedenkboek "Het werk van Dr.P.J. H.Cuypers" 1827-1917, aquarel van K.P.C. de Bazel - Hilversum - 20113266 - RCE.jpg|thumb|right|St. Vitus Church (architect [[Pierre Cuypers]], construction [[Karel de Bazel]]), in a watercolor by K.P.C. de Bazel]]
+The large Catholic neo-gothic St. Vitus church ([[Pierre Cuypers|P.J.H. Cuypers]], 1892, bell tower 96 metres).
+
+The city played host to many landscape artists during the 19th century, including [[Barend Cornelis Koekkoek]].
+
+The [[Eurovision Song Contest 1958|1958 Eurovision Song Contest]] took place in Hilversum.
+
+Once held a major European Tennis tournament in the 50s and 60s.
+
+== Transport ==
+[[File:Burgemeester Lambooy opent het nieuwe Noorderspoorwegviaduct-516807.ogv|right|thumb|The video of the opening of the bridge over the railway in 1930 by the mayor Lambooy]]
+=== Railway ===
+Hilversum is well connected to the Dutch railway network, and has three stations.
+{| class="wikitable" style="font-size:85%;"
+! Station
+! Notes
+|-
+| [[Hilversum railway station|Hilversum]]
+| Opened on 10 June 1874. Served by regional, Intercity and international trains.
+|-
+| [[Hilversum Media Park railway station|Hilversum Media Park]]
+| Opened on 26 May 1974. Previously named Hilversum NOS (1974-1989) and Hilversum Noord (1989-2013). Only served by regional trains.
+|-
+|[[Hilversum Sportpark railway station|Hilversum Sportpark]]
+| Opened on 1 June 1886. Previously named Amersfoortsche Straatweg (1886-1919) and Soestdijker Straatweg (1919-1965). Only served by regional trains.
+|}
+
+=== Public buses ===
+Most local and regional buses are operated by [[Connexxion]], but two of the bus routes are operated by [[Syntus Utrecht]] and two others by [[U-OV]] and [[Pouw Vervoer]]. Regional bus route 320 is operated by both Connexxion and [[Pouw Vervoer]].
+In 2018, major road works started to make room for a new BRT bus lane from Hilversum to Huizen, set to open in early 2021.&lt;ref&gt;https://www.noord-holland.nl/Onderwerpen/Verkeer_vervoer/Projecten_verkeer_en_vervoer/HOV_in_t_Gooi&lt;/ref&gt;&lt;ref&gt;https://www.nhnieuws.nl/nieuws/186179/Aanleg-snelle-busbaan-HOV-Gooi-opnieuw-vertraagd&lt;/ref&gt;
+
+====Local bus lines====
+{| class="wikitable" style="font-size:85%;"
+! Line
+! Route
+! Operator
+! Notes
+|-
+| 1
+| Hilversum Station - Centrum (Downtown) - Kerkelanden
+| [[Connexxion]]
+|
+|-
+| 2
+| Hilversum Station - Over 't Spoor - Erfgooiers
+| [[Connexxion]]
+|
+|-
+| 3
+| Hilversum Station - Hilversum Sportpark Station - Tergooi Ziekenhuis (Hospital)
+| [[Connexxion]]
+|
+|}
+
+====Regional bus lines====
+{| class="wikitable" style="font-size:85%;"
+! Line
+! Route
+! Operator
+! Notes
+|-
+| 58
+| Hilversum Station - Hollandsche Rading - Maartensdijk - Bilthoven - De Bilt - Zeist
+| [[U-OV]] and [[Pouw Vervoer]]
+| Mon-Sat during daytime hours only. U-OV operates this route during weekdays, Pouw Vervoer on Saturdays.
+|-
+| 59
+| Hilversum Station - Lage Vuursche - Den Dolder - Huis ter Heide - Zeist
+| [[U-OV]] and [[Pouw Vervoer]]
+| Mon-Sat during daytime hours only. U-OV operates this route during weekdays, Pouw Vervoer on Saturdays.
+|-
+| 70
+| Amersfoort Station - Soest Zuid - Soest Overhees - Soestdijk Noord - Hooge Vuursche - Hilversum Station
+| [[Syntus Utrecht]]; a few runs are operated by [[Pouw Vervoer]] and [[Van Kooten]]
+|
+|-
+| 100
+| (Hilversum Station -) Blaricum Bijvanck - Huizen - Naarden-Bussum Station
+| [[Connexxion]]
+| The route between Hilversum and Blaricum is only served during weekday daytime hours.
+|-
+| 104
+| Hilversum Station - Hilversum-Zuid - Nieuw-Loosdrecht
+| [[Connexxion]]
+|
+|-
+| 105
+| Hilversum Station - Kortenhoef - 's-Graveland - Hilversumse Meent - Naarden-Bussum Station
+| [[Connexxion]]
+|
+|-
+| 106
+| (Hilversum Station - Kortenhoef -) Nederhorst den Berg - Weesp Station
+| [[Connexxion]]
+| Mon-Sat only. Only runs through from Nederhorst den Berg to Hilversum Mon-Fri during daytime hours.
+|-
+| 107
+| Hilversum Station - Hilversum Mediapark - Bussum - Blaricum Ziekenhuis (Hospital)
+| [[Connexxion]]
+|
+|-
+| 108
+| Hilversum Station - Laren - Blaricum Dorp - Huizen
+| [[Connexxion]]
+|
+|-
+| 109
+| Hilversum Station - Eemnes - Laren - Blaricum Ziekenhuis (Hospital) - Naarden-Bussum Station
+| [[Connexxion]]
+|
+|-
+| 121
+| Hilversum Station - Oud-Loosdrecht - Loenen aan de Vecht - Vinkeveen - Wilnis - Mijdrecht
+| [[Syntus Utrecht]]
+| Mon-Sat during daytime hours only. Only runs between Hilversum and Vinkeveen, Groenlandsekade on Saturdays.
+|-
+| 320
+| Hilversum Station - Hilversum Arenapark - Blaricum Bijvanck - Huizen - Blaricum Ziekenhuis (Hospital) - Naarden Gooimeer - Muiden P+R - Amsterdam Amstel Station
+| [[Connexxion]] and [[Pouw Vervoer]]
+| During weekday daytime hours, Saturday mornings and Sunday evenings, some buses only run between Hilversum and Huizen. During morning rush hours, 4 extra buses run between Hilversum Station and Hilversum Arenapark.
+|-
+| N32
+| Hilversum Station → Eemnes → Blaricum Bijvanck → Huizen
+| [[Pouw Vervoer]]
+| Only runs during Saturday late nights (between midnight and 5 AM).
+|}
+
+==Local government==
+[[File:Hilversum-plaats-OpenTopo.jpg|thumb|Dutch Topographic map of the city of Hilversum, March 2014]]
+[[File:Hilversum centrum A.jpg|thumb|Hilversum city centre]]
+
+The [[Municipal council (Netherlands)|municipal council]] of Hilversum consists of 37 seats, which are divided as followed since the last local election of 2018:&lt;ref&gt;{{Cite web|url=http://www.hilversum.nl/Bestuur/Gemeente_raad/DeGemeenteraad/Gemeenteraadsleden_en_fractiemedewerkers|title=Gemeenteraadsleden en fractiemedewerkers - Hilversum|last=Hilversum|website=www.hilversum.nl|language=nl|access-date=2016-11-04}}&lt;/ref&gt;
+
+* Hart voor Hilversum - 8 seats
+* [[Democrats 66|D66]] – 7 seats
+* [[People's Party for Freedom and Democracy|VVD]] – 6 seats
+* [[GroenLinks]] – 5 seats
+* [[Christian Democratic Appeal|CDA]] – 4 seats
+* [[Socialist Party (Netherlands)|SP]] – 2 seats
+* [[Labour Party (Netherlands)|PvdA]] – 2 seats
+* [[ChristenUnie]] – 2 seats
+* [[Leefbaar]] Hilversum – 1 seat
+
+'''Government'''
+
+After the 2018 elections, the municipal government was made up of aldermen from the political parties Hart voor Hilversum, D66 and VVD.
+
+The mayor of Hilversum is [[Pieter Broertjes]], former lead editor of the Volkskrant, a nationwide distributed newspaper.
+
+It was the first city with a "[[Livable Netherlands|Leefbaar]]" party (which was intended as just a local party). Today, Leefbaar Hilversum has been reduced to only 1 seat, but some other parties have their origins in Leefbaar Hilversum:
+* Hart voor Hilversum. Originated from a Leefbaar Hilversum separation party called DLPH, which won 1 seat in the 2006 elections. Leadership was taken over in 2006 by Leonie Sazias, a TV celebrity. Leonie Sazias later changed the party name to Hart voor Hilversum. She won 3 seats in the 2010 elections and increased her influence to 6 seats in 2014. They won the 2018 elections and have 8 seats now.
+* Hilversum 1. Was founded by Hans Roos, originally a council member for Hart voor Hilversum, but due to disagreements with the party on the list of candidates for the elections in 2014, decided to split and start his own party in 2013.&lt;ref&gt;{{Cite news|url=http://www.dichtbij.nl/t-gooi/regionaal-nieuws/artikel/3272284/hans-roos-door-als-hilversum-1.aspx|title=Hans Roos door als Hilversum 1|last=regio|first=dichtbij.nl – nieuws en informatie uit de|date=2013-12-16|newspaper=dichtbij.nl|access-date=2016-11-04}}&lt;/ref&gt;
+
+==Notable residents==
+[[File:Beeld-en-Geluid-Hay-Kranen-09.JPG|thumb|right| Sound and Vision (''Nederlands Instituut voor Beeld en Geluid'')]]
+[[File:Hilversum Noordse Bosje A.jpg|thumb|right| Shopping district Noordse Bosje]]
+[[File:DJI00501.jpg|thumb|Media Park, Hilversum]]
+Notable people born in Hilversum:
+* [[Joop den Uyl]] (1919–1987), prime minister
+* [[Henk Hermsen]] (1937), water polo player
+* [[Hubert van Es]] (1941-2009), [[War correspondent|war journalist]]
+* [[John Gerretsen]] (1942), politician
+* [[André Hermsen]] (1942), water polo player
+* [[Evert Kroon]] (1946), water polo goalkeeper
+* [[Dick Diamonde]] (1947), bassist
+* [[Wim Hermsen]] (1947), water polo player
+* [[Bartha Knoppers]] (1951), lawyer
+* [[Erland Van Lidth de Jeude]] (1953–1987), actor, wrestler and opera singer
+* [[Ton van Klooster]] (1954), freestyle swimmer and swimming coach
+* [[Nico Landeweerd]] (1954), water polo player
+* [[Andy Hoepelman]] (1955), water polo player
+* [[John de Mol]] (1955), media tycoon
+* [[Dick Nieuwenhuizen]] (1957), water polo player and coach
+* [[Ellen Bontje]] (1958), equestrian
+* [[Hansje Bunschoten]] (1958), swimmer and TV presenter
+* [[Arjen Anthony Lucassen]] (1960), musician and composer
+* [[André Rouvoet]] (1962), politician
+* [[Reggie de Jong]] (1964), freestyle swimmer
+* [[Koos Issard]] (1971), water polo player
+* [[Dave Luza]] (1974), Improv Comedian, Actor
+* [[Gijsbert Haan]]  (1801–1874), founder of the Christian Reformed Church in America
+* [[Geertje Wielema]] (1934–2009) swimmer &amp; Olympic athlete
+* [[:nl:John van Altena]] (1947) 107 caps Dutch National Rugby XV
+* [[Henri van Booven]] (1877–1964) first chairman Dutch Rugby Bond in 1932 and cricket international
+* [[Ton Scherpenzeel]] (1952), keyboardist and a founding member of the Dutch rock band Kayak.
+* [[Pim Koopman]] (1953–2009), drummer and percussionist of the Dutch Progressive rock band, Kayak.
+* [[Max Werner]] (1953), former lead singer, drummer and percussionist of the Dutch Progressive rock band Kayak
+* [[Sick Individuals]] A Progressive House DJ Team
+* [[Linda de Mol]] (1964), A Personality from TROS
+
+==See also==
+*[[Gemeentelijk Gymnasium Hilversum]]
+
+==References==
+{{Reflist}}
+
+==External links==
+*{{commons category-inline}}
+*{{wikivoyage-inline}}
+*[http://www.hilversum.nl/ Official website]
+
+{{Geographic location
+ | Centre    = Hilversum
+ | North     = [[Gooise Meren]]
+ | Northeast = [[Huizen]]
+ | East      = [[Laren, North Holland|Laren]]&lt;br&gt;[[Baarn]] ([[Utrecht (province)|UT]])
+ | South     = [[De Bilt]] ([[Utrecht (province)|UT]])
+ | West      = [[Wijdemeren]]
+ | Northwest = [[Weesp]]
+}}
+{{North Holland Province}}
+{{1928 Summer Olympic venues}}
+{{Olympic venues equestrian}}
+{{Olympic venues modern pentathlon}}
+{{Eurovision Song Contest}}
+
+{{Authority control}}
+
+[[Category:Hilversum| ]]
+[[Category:Cities in the Netherlands]]
+[[Category:Municipalities of North Holland]]
+[[Category:Populated places in North Holland]]
+[[Category:Venues of the 1928 Summer Olympics]]
+[[Category:Olympic equestrian venues]]
+[[Category:Olympic modern pentathlon venues]]
+[[Category:Articles containing video clips]]</text>
+      <sha1>gmp504pdxjrvehsc5312f144w678s83</sha1>
+    </revision>
+  </page>
+</mediawiki>
