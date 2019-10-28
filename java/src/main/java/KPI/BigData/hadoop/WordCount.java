@@ -11,11 +11,11 @@ import java.util.Iterator;
 import java.util.StringTokenizer;
 
 public class WordCount {
-    public static class Map implements Mapper<LongWritable, Text, Text, IntWritable> {
+    public static class Map extends MapReduceBase implements Mapper<LongWritable, Text, Text, IntWritable> {
         IntWritable number = new IntWritable(1);
         Text word = new Text();
 
-        public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output) throws IOException {
+        public void map(LongWritable key, Text value, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
             String line = value.toString();
             StringTokenizer tokenizer = new StringTokenizer(line);
             while (tokenizer.hasMoreTokens()) {
@@ -25,10 +25,10 @@ public class WordCount {
         }
     }
 
-    public static class Reduce implements Reducer<Text, IntWritable, Text, IntWritable> {
+    public static class Reduce extends MapReduceBase implements Reducer<Text, IntWritable, Text, IntWritable> {
         private IntWritable result = new IntWritable();
 
-        public void reduce(Text key, Iterator<IntWritable> values, OutputCollector<Text, IntWritable> output) throws IOException {
+        public void reduce(Text key, Iterator<IntWritable> values, OutputCollector<Text, IntWritable> output, Reporter reporter) throws IOException {
             int sum = 0;
             while (values.hasNext()) {
                 sum += values.next().get();
