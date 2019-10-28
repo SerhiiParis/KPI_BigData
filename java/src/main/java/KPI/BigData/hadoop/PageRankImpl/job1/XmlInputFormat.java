@@ -1,4 +1,4 @@
-package KPI.BigData.hadoop.PageRankImpl;
+package KPI.BigData.hadoop.PageRankImpl.job1;
 
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.FSDataInputStream;

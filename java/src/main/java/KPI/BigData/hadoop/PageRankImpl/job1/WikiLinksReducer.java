@@ -1,4 +1,4 @@
-package KPI.BigData.hadoop.PageRankImpl;
+package KPI.BigData.hadoop.PageRankImpl.job1;
 
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Reducer;
