@@ -16,11 +16,7 @@ public class RankCalculateReduce extends Reducer<Text, Text, Text, Text> {
         float sumShareOtherPageRanks = 0;
         String links = "";
         String pageWithRank;
-        
-        // For each otherPage: 
-        // - check control characters
-        // - calculate pageRank share <rank> / count(<links>)
-        // - add the share to sumShareOtherPageRanks
+
         for (Text value : values){
             pageWithRank = value.toString();
             
