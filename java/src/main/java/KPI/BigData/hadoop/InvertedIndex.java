@@ -11,7 +11,7 @@ import org.apache.hadoop.mapreduce.lib.input.FileSplit;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.IOException;
-import java.util.StringTokenizer;
+import java.util.*;
 
 public class InvertedIndex {
     public static class InvertedIndexMapper extends
@@ -27,7 +27,10 @@ public class InvertedIndex {
 
             while(itr.hasMoreTokens()){
                 keyInfo.set(itr.nextToken()+":"+split.getPath().toString());
-                valueInfo.set("1");
+
+                int possition = value.toString().indexOf(itr.nextToken());
+                valueInfo.set(String.valueOf(possition));
+
                 context.write(keyInfo, valueInfo);
             }
         }
@@ -37,15 +40,30 @@ public class InvertedIndex {
             extends Reducer<Text, Text, Text, Text>{
         private Text info = new Text();
         @Override
-        protected void reduce(Text key, Iterable<Text> values,Context context)
+        protected void reduce(Text key, Iterable<Text> values, Context context)
                 throws IOException, InterruptedException {
             int sum = 0;
+            //Collection<Text> data = getCollectionFromIterable(values);
+            //Text[] dataArray = data.toArray(new Text[data.size()]);
+
+            String positions = "";
+
             for(Text value : values){
-                sum += Integer.parseInt(value.toString());
+                sum += 1;
+
+                if (positions != "")
+                    positions += ",";
+                positions += value;
             }
 
             int splitIndex = key.toString().indexOf(":");
-            info.set(key.toString().substring(splitIndex+1)+":"+sum);
+
+            String fullFileName = key.toString().substring(splitIndex+1);
+            String[] fullFileNameSplited = fullFileName.split("/");
+            String fileName = fullFileNameSplited[fullFileNameSplited.length - 1];
+            String result = fileName + ":[count=" + sum + "; indexes={" + positions + "}]";
+
+            info.set(result);
             key.set(key.toString().substring(0,splitIndex));
             context.write(key, info);
         }
@@ -89,5 +107,15 @@ public class InvertedIndex {
         } catch (ClassNotFoundException e) {
             e.printStackTrace();
         }
+    }
+
+    public static <T> Collection<T> getCollectionFromIterable(Iterable<T> itr)
+    {
+        Collection<T> cltn = new ArrayList<T>();
+
+        for (T t : itr)
+            cltn.add(t);
+
+        return cltn;
     }
 }
