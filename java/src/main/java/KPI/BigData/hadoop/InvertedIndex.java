@@ -14,8 +14,8 @@ import java.io.IOException;
 import java.util.*;
 
 public class InvertedIndex {
-    public static class InvertedIndexMapper extends
-            Mapper<Object,Text,Object,Text>{
+    public static class InvertedIndexMapper extends Mapper<Object,Text,Object,Text>
+    {
         private Text keyInfo = new Text();//store the combination of word and URI
         private  Text valueInfo = new Text();//store the word frequency
         private FileSplit split;//store the split target
@@ -36,8 +36,8 @@ public class InvertedIndex {
         }
     }
 
-    public static class InvertedIndexCombiner
-            extends Reducer<Text, Text, Text, Text>{
+    public static class InvertedIndexCombiner extends Reducer<Text, Text, Text, Text>
+    {
         private Text info = new Text();
         @Override
         protected void reduce(Text key, Iterable<Text> values, Context context)
@@ -69,9 +69,8 @@ public class InvertedIndex {
         }
     }
 
-    public static class InvertedIndexReducer
-            extends Reducer<Text, Text, Text, Text>{
-
+    public static class InvertedIndexReducer extends Reducer<Text, Text, Text, Text>
+    {
         private Text result = new Text();
         @Override
         protected void reduce(Text key, Iterable<Text> values,Context context)
