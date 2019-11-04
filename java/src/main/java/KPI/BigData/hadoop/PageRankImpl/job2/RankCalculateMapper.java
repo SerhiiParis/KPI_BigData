@@ -10,8 +10,8 @@ public class RankCalculateMapper extends Mapper<LongWritable, Text, Text, Text> 
 
     @Override
     public void map(LongWritable key, Text value, Context context) throws IOException, InterruptedException {
-        int pageTabIndex = value.find(" ");
-        int rankTabIndex = value.find(" ", pageTabIndex+1);
+        int pageTabIndex = value.find("\t");
+        int rankTabIndex = value.find("\t", pageTabIndex+1);
 
         String page = Text.decode(value.getBytes(), 0, pageTabIndex);
         String pageWithRank = Text.decode(value.getBytes(), 0, rankTabIndex+1);

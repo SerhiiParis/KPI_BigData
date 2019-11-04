@@ -16,9 +16,9 @@ import java.util.*;
 public class InvertedIndex {
     public static class InvertedIndexMapper extends
             Mapper<Object,Text,Object,Text>{
-        private Text keyInfo = new Text();//store the combination of word and URI
-        private  Text valueInfo = new Text();//store the word frequency
-        private FileSplit split;//store the split target
+        private Text keyInfo = new Text();
+        private  Text valueInfo = new Text();
+        private FileSplit split;
         @Override
         public void map(Object key, Text value, Context context)
                 throws IOException, InterruptedException {
@@ -43,9 +43,6 @@ public class InvertedIndex {
         protected void reduce(Text key, Iterable<Text> values, Context context)
                 throws IOException, InterruptedException {
             int sum = 0;
-            //Collection<Text> data = getCollectionFromIterable(values);
-            //Text[] dataArray = data.toArray(new Text[data.size()]);
-
             String positions = "";
 
             for(Text value : values){

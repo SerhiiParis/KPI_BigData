@@ -1,6 +1,6 @@
-A 1.0 B,C,D,E,F
-B 1.0 D,E
-C 1.0 A,B,F
-D 1.0 E
-E 1.0 C,D
-F 1.0 A,F
+A	1.0	B,C,D,E,F
+B	1.0	D,E
+C	1.0	A,B,F
+D	1.0	E
+E	1.0	C,D
+F	1.0	A,F

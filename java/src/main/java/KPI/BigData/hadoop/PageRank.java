@@ -5,20 +5,44 @@ import KPI.BigData.hadoop.PageRankImpl.job1.WikiPageLinksMapper;
 import KPI.BigData.hadoop.PageRankImpl.job1.XmlInputFormat;
 import KPI.BigData.hadoop.PageRankImpl.job2.RankCalculateMapper;
 import KPI.BigData.hadoop.PageRankImpl.job2.RankCalculateReduce;
+import KPI.BigData.hadoop.PageRankImpl.job3.RankingMapper;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.fs.Path;
+import org.apache.hadoop.io.FloatWritable;
 import org.apache.hadoop.io.Text;
 import org.apache.hadoop.mapreduce.Job;
 import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
+import org.apache.hadoop.mapreduce.lib.input.TextInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 import org.apache.hadoop.mapreduce.lib.output.TextOutputFormat;
 
 import java.io.IOException;
+import java.text.DecimalFormat;
+import java.text.NumberFormat;
 
 public class PageRank {
     public static void Start(String input, String output) throws IOException, InterruptedException, ClassNotFoundException {
-        //runXmlParsing(input, output);
-        runRankCalculation(input, output);
+        // runXmlParsing("inputs/pagerank_hadoop/xmlnodes", "outtt");
+
+        NumberFormat nf = new DecimalFormat("00");
+
+        String lastResultPath = null;
+        String firstIteration = input;
+
+        for (int runs = 0; runs < 5; runs++) {
+            String inPath;
+
+            if (runs == 0)
+                inPath = firstIteration;
+            else
+                inPath = output + "iterations/" + nf.format(runs);
+
+            lastResultPath = output + "iterations/" + nf.format(runs + 1);
+
+            runRankCalculation(inPath, lastResultPath);
+        }
+
+        runRankOrdering(lastResultPath, output + "finish/");
     }
 
     public static boolean runXmlParsing(String inputPath, String outputPath) throws IOException, ClassNotFoundException, InterruptedException {
@@ -63,5 +87,25 @@ public class PageRank {
         rankCalculator.setReducerClass(RankCalculateReduce.class);
 
         return rankCalculator.waitForCompletion(true);
+    }
+
+    private static boolean runRankOrdering(String inputPath, String outputPath) throws IOException, ClassNotFoundException, InterruptedException {
+        Configuration conf = new Configuration();
+
+        Job rankOrdering = Job.getInstance(conf, "rankOrdering");
+        rankOrdering.setJarByClass(PageRank.class);
+
+        rankOrdering.setOutputKeyClass(FloatWritable.class);
+        rankOrdering.setOutputValueClass(Text.class);
+
+        rankOrdering.setMapperClass(RankingMapper.class);
+
+        FileInputFormat.setInputPaths(rankOrdering, new Path(inputPath));
+        FileOutputFormat.setOutputPath(rankOrdering, new Path(outputPath));
+
+        rankOrdering.setInputFormatClass(TextInputFormat.class);
+        rankOrdering.setOutputFormatClass(TextOutputFormat.class);
+
+        return rankOrdering.waitForCompletion(true);
     }
 }
